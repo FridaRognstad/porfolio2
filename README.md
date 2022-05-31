@@ -19,7 +19,7 @@ Portfolio app displaying three of my assignments from the second year of my Fron
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:Noroff-FEU-Assignments/js-frameworks-course-assignment-FridaRognstad.git
+git clone git@github.com:FridaRognstad/portfolio2-ca.git
 ```
 
 2. Install the dependencies:
