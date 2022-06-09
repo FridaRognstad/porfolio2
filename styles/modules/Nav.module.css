@@ -1,8 +1,5 @@
 .nav {
-    position: absolute;
-    right: 10%;
-    top: 50%;
-    color: wheat;
+    color: #AFCDD9;
 }
 
 .nav ul {
@@ -16,12 +13,30 @@
 
 .nav a {
     font-size: 2em;
+    padding: 0.5em;
 }
 
+.nav li:hover {
+    border-left: 1px solid #284732;
+    border-bottom: 2px solid #284732;
+    cursor: pointer;
+
+}
+
+
+
+
 @media only screen and (min-width: 600px) {
+    .nav {
+        position: absolute;
+        right: 10%;
+        top: 50%;
+    }
+  
+  }
+  @media only screen and (min-width: 900px) {
     .nav a {
         font-size: 3em;
     }
   
   }
-  

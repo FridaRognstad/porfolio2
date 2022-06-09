@@ -1,0 +1,17 @@
+.cardContainer {
+    position: relative;
+}
+
+.cardBackground {
+    background-color:black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.semesterContainer, .examContainer, .jsContainer {
+    display: none;
+    padding: 2em;
+}

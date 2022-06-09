@@ -1,18 +1,21 @@
-import Link from "next/link";
 import styles from "../../styles/modules/Nav.module.css";
+import showExam from "../../hooks/showExam";
+import showJS from "../../hooks/showJS";
+import showSemester from "../../hooks/showSemester";
 
 export default function Nav() {
   return (
     <nav className={styles.nav}>
       <ul>
         <li>
-          <a>Project Exam 2</a>
+          <a onClick={showExam}>Project Exam</a>
+          <span className={styles.line}></span>
         </li>
         <li>
-          <a>Semester Project 2</a>
+          <a onClick={showSemester}>Semester Project</a>
         </li>
         <li>
-          <a>Js Frameworks CA</a>
+          <a onClick={showJS}>Js Frameworks</a>
         </li>
       </ul>
     </nav>
