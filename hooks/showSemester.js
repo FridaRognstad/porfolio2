@@ -3,7 +3,7 @@ export default function showSemester() {
   const jsCard = document.getElementById("js");
   const examCard = document.getElementById("exam");
 
-  if (semesterCard.style.display === "none") {
+  if (!semesterCard.style.display || semesterCard.style.display === "none") {
     semesterCard.style.display = "block";
     jsCard.style.display = "none";
     examCard.style.display = "none";

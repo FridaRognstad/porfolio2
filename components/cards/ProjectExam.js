@@ -4,14 +4,13 @@ import Paragraph from "../layout/Paragraph";
 import LinkProp from "../layout/Link";
 import Image from "next/image";
 
-import PropTypes from "prop-types";
-
 export default function ProjectExam() {
   return (
     <div className={styles.examContainer} id="exam">
       <div className={styles.cardContainer}>
         <span className={styles.cardBackground}></span>
         <Heading size="2" title="Project Exam 2" />{" "}
+        <a href="https://holidaze-frida-rognstad.netlify.app">Netlify link</a>
         <div className={styles.git}>
           <LinkProp url="https://github.com/Noroff-FEU-Assignments/project-exam-2-FridaRognstad.git" />
         </div>

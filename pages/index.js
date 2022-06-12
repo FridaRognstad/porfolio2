@@ -5,10 +5,12 @@ import styles from "../styles/modules/Home.module.css";
 import ProjectExam from "../components/cards/ProjectExam";
 import JsFrameworks from "../components/cards/JsFrameworks";
 import Headings from "../components/headings/Headings";
+import Head from "../components/layout/Head";
 
 export default function Home() {
   return (
     <>
+      <Head />
       <Video />
 
       <div className={styles.container}>
