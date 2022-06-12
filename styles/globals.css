@@ -4,17 +4,35 @@ body {
   margin: 0;
   font-family: 'Syne', sans-serif, Arial, Helvetica;
   color: #f8f8f8;
+  min-height: 100vh;
 }
 
 h1 {
+  margin: 0;
+}
+
+h2 {
   font-family: 'Oswald', sans-serif;
 }
 
 a {
   text-decoration: none;
-  font-family: 'Oranienbaum', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 * {
   box-sizing: border-box;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+  margin: 0.5em;
+  position: absolute;
+  bottom: 0;
 }

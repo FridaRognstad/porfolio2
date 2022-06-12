@@ -1,5 +1,13 @@
 .cardContainer {
     position: relative;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContainer h2 {
+    text-align: center;
 }
 
 .cardBackground {
@@ -13,5 +21,14 @@
 
 .semesterContainer, .examContainer, .jsContainer {
     display: none;
-    padding: 2em;
+}
+
+.git {
+    padding: 0.5em;
+}
+
+@media only screen and (min-width: 600px) {
+    .semesterContainer, .examContainer, .jsContainer {
+        padding: 2em;
+    }
 }

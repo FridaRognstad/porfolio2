@@ -4,6 +4,7 @@ import Video from "../components/video/Video";
 import styles from "../styles/modules/Home.module.css";
 import ProjectExam from "../components/cards/ProjectExam";
 import JsFrameworks from "../components/cards/JsFrameworks";
+import Headings from "../components/headings/Headings";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <div className={styles.container}>
         <div className={styles.navContainer}>
+          <Headings />
           <Nav />
         </div>
 
