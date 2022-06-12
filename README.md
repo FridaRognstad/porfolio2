@@ -52,5 +52,3 @@ npm run dev
 
 [My LinkedIn page](https://no.linkedin.com/in/frida-rognstad)
 
-## Acknowledgments
-
